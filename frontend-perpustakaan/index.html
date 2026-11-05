@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perpustakaan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-gray-100 min-h-screen">
+
+  <header class="bg-blue-700 text-white shadow">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+      <h1 class="text-xl font-bold">📚 Perpustakaan</h1>
+      <nav class="flex gap-4">
+        <a href="#/" class="nav-link hover:underline">Dashboard</a>
+        <a href="#/buku" class="nav-link hover:underline">Buku</a>
+        <a href="#/kategori" class="nav-link hover:underline">Kategori</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="max-w-5xl mx-auto px-4 py-6">
+    <p class="text-gray-500">Memuat aplikasi...</p>
+  </main>
+
+  <div id="toast-container" class="fixed top-4 right-4 space-y-2 z-50"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/api.js"></script>
+</body>
+</html>
