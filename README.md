@@ -2,7 +2,7 @@
 
 - Nama : Andini Salsabilla
 - NIM  : H1101251066
-- Kelas: ____________________
+- Kelas: B
 - Mata Kuliah: Pemrograman Berbasis Objek (PBO)
 - Dosen Pengampu: Syahru Rahmayuda, M.Kom
 
